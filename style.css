@@ -85,6 +85,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
 button {
   border: none;
 }
@@ -326,18 +327,24 @@ button {
 
   .nav-desktop {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 1.5rem;
     z-index: 3;
     margin: 2rem;
   }
   .desktop-logo {
-    width: 15%;
+    width: 20%;
   }
   .nav-desktop-links {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.8rem;
     font-size: 0.7rem;
+  }
+
+  .nav-desktop-links a:hover {
+    border-bottom: 2px var(--clr-white) solid;
+    padding-bottom: 0.3rem;
+    width: 70%; /*this is not working ???*/
   }
 
   .slider-arrow-container-desktop {
