@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Room homepage</title>
+  </head>
+  <body>
+    <main>
+      <div class="overlay"></div>
+
+      <!--Hero for Mobile ONLY-->
+      <div class="hero-container-mobile">
+        <div class="carousel carousel-mobile">
+          <nav class="nav-mobile">
+            <div class="mobile-nav-top container">
+              <div class="mobile-menu-btn-container">
+                <img
+                  src="images/icon-hamburger.svg"
+                  alt=""
+                  class="hamburger-icon"
+                />
+              </div>
+              <div class="mobile-logo">
+                <img src="images/logo.svg" alt="" />
+              </div>
+            </div>
+            <div class="nav-dropdown-menu">
+              <img src="images/icon-close.svg" alt="" class="close-menu" />
+              <div class="nav-dropdown-menu-links">
+                <a href="#">home</a>
+                <a href="#">shop</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+              </div>
+            </div>
+          </nav>
+          <div class="carousel-image-container">
+            <img
+              src="images/mobile-image-hero-1.jpg"
+              alt=""
+              class="mobile-hero-1-img active"
+            />
+            <img
+              src="images/mobile-image-hero-2.jpg"
+              alt=""
+              class="mobile-hero-2-img"
+            />
+            <img
+              src="images/mobile-image-hero-3.jpg"
+              alt=""
+              class="mobile-hero-3-img"
+            />
+          </div>
+          <div class="slider-arrow-container-mobile arrow-mobile">
+            <button class="separate-arrow-container">
+              <img src="images/icon-angle-left.svg" alt="" class="prev" />
+            </button>
+            <button class="separate-arrow-container">
+              <img src="images/icon-angle-right.svg" alt="" class="next" />
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-content-container-mobile container">
+          <div class="hero-content-slide-1 hero-content-slide active">
+            <h1>Discover innovative ways to decorate</h1>
+            <p>
+              We provide unmatched quality, comfort, and style for property
+              owners across the country. Our experts combine form and function
+              in bringing your vision to life. Create a room in your own style
+              with our collection and make your property a reflection of you and
+              what you love.
+            </p>
+            <div class="shop-now-container">
+              <h3 class="shop-now">Shop now</h3>
+              <img src="images/icon-arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="hero-content-slide-2 hero-content-slide">
+            <h1>We are available all across the globe</h1>
+            <p>
+              With stores all over the world, it's easy for you to find
+              furniture for your home or place of business. Locally, we’re in
+              most major cities throughout the country. Find the branch nearest
+              you using our store locator. Any questions? Don't hesitate to
+              contact us today.
+            </p>
+            <div class="shop-now-container">
+              <h2 class="shop-now">Shop now</h2>
+              <img src="images/icon-arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="hero-content-slide-3 hero-content-slide">
+            <h1>Manufactured with the best materials</h1>
+            <p>
+              Our modern furniture store provide a high level of quality. Our
+              company has invested in advanced technology to ensure that every
+              product is made as perfect and as consistent as possible. With
+              three decades of experience in this industry, we understand what
+              customers want for their home and office.
+            </p>
+            <div class="shop-now-container">
+              <h3 class="shop-now">Shop now</h3>
+              <img src="images/icon-arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Hero for Desktop ONLY-->
+      <div class="hero-container-desktop">
+        <div class="carousel-img-container-desktop">
+          <div class="carousel carousel-desktop">
+            <nav class="nav-desktop">
+              <div class="desktop-logo">
+                <img src="images/logo.svg" alt="" />
+              </div>
+              <div class="nav-desktop-links">
+                <a href="#">home</a>
+                <a href="#">shop</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+              </div>
+            </nav>
+            <img
+              src="images/desktop-image-hero-1.jpg"
+              alt=""
+              class="desktop-hero-1 desktop-image active"
+            />
+            <img
+              src="images/desktop-image-hero-2.jpg"
+              alt=""
+              class="desktop-hero-2 desktop-image"
+            />
+            <img
+              src="images/desktop-image-hero-3.jpg"
+              alt=""
+              class="desktop-hero-3 desktop-image"
+            />
+          </div>
+        </div>
+        <div class="hero-content-container-desktop">
+          <div class="hero-content-slide-1 desktop-content-slide active">
+            <h1>Discover innovative ways to decorate</h1>
+            <p>
+              We provide unmatched quality, comfort, and style for property
+              owners across the country. Our experts combine form and function
+              in bringing your vision to life. Create a room in your own style
+              with our collection and make your property a reflection of you and
+              what you love.
+            </p>
+            <div class="shop-now-container">
+              <h3 class="shop-now">Shop now</h3>
+              <img src="images/icon-arrow.svg" alt="" />
+              <img src="images/icon-angle-left.svg" alt="" class="test" />
+            </div>
+          </div>
+          <div class="slider-arrow-container-desktop">
+            <button class="separate-arrow-container">
+              <img
+                src="images/icon-angle-left.svg"
+                alt=""
+                class="prev-desktop"
+              />
+            </button>
+            <button class="separate-arrow-container">
+              <img
+                src="images/icon-angle-right.svg"
+                alt=""
+                class="next-desktop"
+              />
+            </button>
+          </div>
+
+          <div class="hero-content-slide-2 desktop-content-slide">
+            <h1>We are available all across the globe</h1>
+            <p>
+              With stores all over the world, it's easy for you to find
+              furniture for your home or place of business. Locally, we’re in
+              most major cities throughout the country. Find the branch nearest
+              you using our store locator. Any questions? Don't hesitate to
+              contact us today.
+            </p>
+            <div class="shop-now-container">
+              <h3 class="shop-now">Shop now</h3>
+              <img src="images/icon-arrow.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="hero-content-slide-3 desktop-content-slide">
+            <h1>Manufactured with the best materials</h1>
+            <p>
+              Our modern furniture store provide a high level of quality. Our
+              company has invested in advanced technology to ensure that every
+              product is made as perfect and as consistent as possible. With
+              three decades of experience in this industry, we understand what
+              customers want for their home and office.
+            </p>
+            <div class="shop-now-container">
+              <h3 class="shop-now">Shop now</h3>
+              <img src="images/icon-arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--This is the same for both mobile and desktop-->
+      <section class="section-bottom">
+        <img src="images/image-about-dark.jpg" alt="" class="image-dark" />
+        <div class="about-content container">
+          <h2>About our furniture</h2>
+          <p>
+            Our multifunctional collection blends design and function to suit
+            your individual taste. Make each room unique, or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to
+            help you create your dream space.
+          </p>
+        </div>
+        <img src="images/image-about-light.jpg" alt="" class="image-light" />
+      </section>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
